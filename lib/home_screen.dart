@@ -72,7 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
         Marker(
             markerId: MarkerId(i.toString()),
             infoWindow: const InfoWindow(
-                title: 'Really Cool Place', snippet: '7 Stare Rating'),
+                title: 'Really Cool Place', snippet: '5 Stare Rating'),
             position: listOdLatLng[i],
             icon: BitmapDescriptor.defaultMarker),
       );
