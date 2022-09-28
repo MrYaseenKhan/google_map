@@ -65,14 +65,14 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   void initState() {
-    //yasse
+    //yass
     // TODO: implement initState
     for (int i = 0; i < listOdLatLng.length; i++) {
       singleMarker.add(
         Marker(
             markerId: MarkerId(i.toString()),
             infoWindow: const InfoWindow(
-                title: 'Really Cool Place', snippet: '5 Stare Rating'),
+                title: 'Really Cool Place', snippet: '7 Stare Rating'),
             position: listOdLatLng[i],
             icon: BitmapDescriptor.defaultMarker),
       );
