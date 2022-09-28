@@ -65,7 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   void initState() {
-    //yasee
+    //y
     // TODO: implement initState
     for (int i = 0; i < listOdLatLng.length; i++) {
       singleMarker.add(
